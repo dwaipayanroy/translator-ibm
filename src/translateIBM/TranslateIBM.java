@@ -63,8 +63,6 @@ public class TranslateIBM {
     public TranslateIBM() {
         service = new LanguageTranslator("2018-05-01");
     //    service.setUsernameAndPassword("<username>", "<password>");
-//        service.setUsernameAndPassword("ec41784d-3587-4496-9213-51db818d2931", "KNWywewYYwq6");
-        service.setUsernameAndPassword("3af257d4-f41a-4ef0-94b2-cfd3e99b9cab", "a6vJW8IMi6Wx"); // sumit's credentials
 
         translateBuilder = new TranslateOptions.Builder();
     }
